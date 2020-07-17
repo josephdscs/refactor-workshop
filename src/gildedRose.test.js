@@ -1,4 +1,4 @@
-const { Shop, Item } = require('../src/gildedRose');
+const { Shop, Item } = require('./gildedRose');
 
 it('should foo', function () {
   const gildedRose = new Shop([new Item('foo', 0, 0)]);
